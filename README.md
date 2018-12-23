@@ -1,7 +1,7 @@
 # ArrayChallenge1
 Challenge from Java Programming Masterclass by Tim Buchalka
 
-INPROGRESS
+IN PROGRESS
 
 // Create a program using arrays that sorts a list of integers in descending order.
 // Descending order is highest value to lowest.

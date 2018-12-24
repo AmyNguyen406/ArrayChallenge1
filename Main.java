@@ -34,8 +34,15 @@ public class Main {
         for (int i = 0; i<intArray.length; i++){
             System.out.println("Index: " + i + " | Value: " + intArray[i]);
         }
+
+        DescendingQuickSort sort = new DescendingQuickSort();
+        sort.descQuickSort(intArray, 0, intArray.length-1);
+
+        System.out.println("The sorted array is: ");
+        printArray(intArray);
     }
 
+    //Method for using user input to fill array
     public static int[] getInteger(int number){
 
         // Number takes the array size that was initialized above
@@ -52,11 +59,12 @@ public class Main {
         return inputArray;
     }
 
-    public static int[] descendingQuickSort(int intArray[]){
-
-
-
-        return sortedArray;
+    //Method for printing the array
+    static void printArray(int intArray[]){
+            for (int i=0; i < intArray.length; i++)
+            {
+                System.out.println("Index: " + i + " | Value: "+ intArray[i]);
+            }
     }
 
 }

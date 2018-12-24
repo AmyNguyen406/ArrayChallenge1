@@ -9,13 +9,13 @@ IN PROGRESS
 
 // Set up the program so that the numbers to sort are read in from the keyboard.
 
-// Implement the following methods - getIntegers, printArray, and sortIntegers
+// Implement the following methods - getIntegers, printArray.
 
 // getIntegers returns an array of entered integers from keyboard
 
 // printArray prints out the contents of the array
 
-// sortIntegers should sort the array and return a new array containing the sorted numbers
+
 
 
 

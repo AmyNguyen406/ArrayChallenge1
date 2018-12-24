@@ -43,13 +43,13 @@ public class Main {
     }
 
     //Method for using user input to fill array
-    public static int[] getInteger(int number){
+    public static int[] getInteger(int arrSize){
 
         // Number takes the array size that was initialized above
-        System.out.println("Enter " + number + " integers to be put into an array.");
+        System.out.println("Enter " + arrSize + " integers to be put into an array.");
 
         // Create new array of size "number" to store input
-        int inputArray[] = new int[number];
+        int inputArray[] = new int[arrSize];
 
         // For loop getting user input until the array is full
         for (int i=0; i<inputArray.length; i++){

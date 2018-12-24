@@ -28,7 +28,6 @@ public class DescendingQuickSort {
                 // Finish the swap by storing the original value of index i (that we put in temp) into j
                 intArray[j] = temp;
 
-                System.out.println("DEBUG: If statement in partition was ran");
             }
         }
 
@@ -40,8 +39,7 @@ public class DescendingQuickSort {
         intArray[i+1] = intArray[end];
         // Finish the swap by taking the original value of i+1 and making it the new end of the array or pivot
         intArray[end] = temp;
-
-        System.out.println("DEBUG: Partition method completed");
+        
         return i+1;
     }
 
@@ -56,8 +54,6 @@ public class DescendingQuickSort {
             descQuickSort(intArray, start, partitionIndex-1);
             descQuickSort(intArray, partitionIndex+1, end);
         }
-
-        System.out.println("DEBUG: descQuickSort completed");
     }
 
 }
